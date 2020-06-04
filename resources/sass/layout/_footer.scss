@@ -5,6 +5,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+
+  
 
   .footer {
     &-logo {
@@ -42,6 +45,7 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 0 10rem;
     }
   }
 
@@ -52,10 +56,10 @@ footer {
     .icon {
       width: 2rem;
       fill: var(--color-dark-grayish-blue);
+      transition: fill .3s;
     }
 
     a {
-        transition: fill .3s;
       &:hover .icon {
         fill: var(--color-primary);
       }

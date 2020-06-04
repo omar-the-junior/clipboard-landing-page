@@ -14,6 +14,10 @@
     transition: opacity 0.3s;
     cursor: pointer;
 
+    &-group{
+        margin-top: 5rem;
+    }
+
     &:not(:first-child){
         margin-left: 2rem;
     }

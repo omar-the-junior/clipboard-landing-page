@@ -23,11 +23,22 @@
 html {
   font-size: 10px;
   box-sizing: border-box;
+
+  @media screen and (max-width: 1250px) {
+    font-size: 9px;
+  }
+
+  @media screen and (max-width: 800px) {
+    font-size: 8px;
+}
+
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .attribution a {
