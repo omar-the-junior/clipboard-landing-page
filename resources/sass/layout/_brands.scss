@@ -1,0 +1,20 @@
+.brands {
+  width: 100%;
+  margin: 15rem 0;
+  &__item {
+    list-style: none;
+
+    &:not(:last-child) {
+      margin-right: 10rem;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10rem;
+  }
+}

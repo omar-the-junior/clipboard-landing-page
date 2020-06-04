@@ -1,0 +1,33 @@
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  
+  &__items {
+    flex: 0 0 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        height: 3.2rem;
+    }
+
+    &:not(:last-child){
+        margin-right: 5rem;
+    }
+    h4{
+        margin: 5rem 0 2rem 0;
+    }
+    &-container {
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+}

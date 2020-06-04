@@ -1,0 +1,15 @@
+.accessibility{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .devices-img{
+
+        margin-top: 10rem;
+        img{
+            width: 100%;
+        }
+    }
+}

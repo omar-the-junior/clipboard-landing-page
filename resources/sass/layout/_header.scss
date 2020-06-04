@@ -1,0 +1,34 @@
+//////////////////////////////////////////
+////////////header///////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  .header {
+    
+    &__logo{
+        margin-top: 15rem;
+    }
+    &__logo-container {
+      width: 100%;
+      background-image: url(../images/bg-header-desktop.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 39rem;
+    }
+    &__content {
+        
+      p{
+          margin-bottom: 5rem;
+      }
+      
+    }
+  }
+}
