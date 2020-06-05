@@ -1,26 +1,51 @@
 .brands {
-  width: 100%;
   margin: 15rem 0;
   &__item {
     list-style: none;
+    flex: 0 10%;
 
+   
     &:not(:last-child) {
       margin-right: 10rem;
 
-      @media screen and (max-width: 1000px) {
-        margin-right: 5rem;
+      @media screen and(max-width:600px) {
+        margin: 0;
+      }
     }
+
+    &:not(:first-of-type){
+      @media screen and(max-width:600px) {
+        margin-top: 10rem;
+      }
+    }
+
+    @media screen and (max-width: 950px){
+      flex: 0 20%;
+
+      &:nth-child(3){
+        margin-right: 0;
+      }
+
+      &:nth-child(4),
+      &:nth-child(5){
+        margin-top: 10rem;
+      }
     }
     img {
       width: 100%;
     }
+
+    
   }
   &__container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 0 10rem;
-
     
+    @media screen and (max-width:600px) {
+      flex-direction: column;
+    }
   }
 }
